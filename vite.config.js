@@ -9,6 +9,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Pet_Shop',
   plugins: [
     vue({
       template: { transformAssetUrls }
